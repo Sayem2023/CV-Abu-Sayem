@@ -1,0 +1,155 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+ background-color:#EEE;
+ font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #E4F9f5;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*--------------------
+Header Start
+---------------------*/
+        header{
+
+        }
+        .cvimage{
+            width: 100px;
+            height: 120px;
+            border: 3px solid white;
+            border-radius: 50%;
+            float: left;
+        }
+        .header-bio{
+        float: left;
+        padding: 30px;
+        }
+        .header-contact {
+            float: right;
+        }
+        .header-contact a{
+            text-decoration: none;
+            color: teal;
+        }
+        .header-contact  a:hover{
+            text-decoration: underline;
+            color: tomato;
+        }
+        h1,h2,h3,h4,h5,h6{
+            color:#11999e
+        }
+        .div-clear{
+            clear:both;
+        }
+/*--------------------
+header end
+---------------------*/
+hr{
+    border: solid rgb(168, 173, 149) 6px;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* main----------------------------------------------------start */
+/*--------------------
+personal sectoin start
+---------------------*/
+        #personal-sectoin{
+
+        }
+        .content{
+
+        }
+        .left-div{
+        width: 30%;
+        float: left; 
+        }
+        .right-div{
+        width: 70%;
+        float: left;
+        text-align: justify;
+        }
+        .location{
+            text-decoration: none;
+            color:#2980FF;
+        }
+        .location:hover{
+            text-decoration: underline;
+            color: #5f9af3;
+        }
+/*--------------------
+personal sectoin end
+---------------------*/
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+            /*--------------------
+            work section start
+            ---------------------*/
+                p1{
+                    font-size: 20px;
+                    color:#168695                
+                } 
+            /*--------------------
+            work section end
+            ---------------------*/
+/*--------------------
+key skill section start
+---------------------*/
+   
+/*--------------------
+key skill section end
+---------------------*/
+            /*--------------------
+            education section start
+            ---------------------*/
+            .edu-template-left{
+                float: left;
+                width: 45%;
+            }
+            .edu-template-right{
+                float: right;
+                width: 45%;
+            }
+            .edu-link{
+                text-decoration: none;
+                color:  #2980ff;
+            }
+            .edu-link:hover{
+                text-decoration: underline;
+                color:#5f9af3 ;
+            }
+            /*--------------------
+            education section end
+            ---------------------*/
+/* main------------------------------------------------------------end */
+/* footer start */
+.bottom-container{
+    background-color: rgb(60, 58, 58);
+    text-align: center;
+    padding:20px;
+    margin: 0;
+    
+}
+.bottom-container a{
+color: whitesmoke;
+text-decoration: underline;
+margin:20px;
+}
+.bottom-container a:hover{
+   text-decoration: underline;
+        color: #2980FF;    
+}
+.bottom-container p{
+    color: red;
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* footer end */
